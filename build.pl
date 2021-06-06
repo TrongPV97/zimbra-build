@@ -804,7 +804,7 @@ sub Clone($$)
 
    $repo_url_prefix =~ s,/*$,,;
 
-   print "Clone git : repo_name-> $repo_name, repo_branch_csv-> $repo_branch_csv, repo_tag_csv-> $repo_tag_csv, repo_remote-> $repo_remote, repo_url_prefix-> $repo_url_prefix";
+   print color('green') ."Clone git : repo_name-> $repo_name, repo_branch_csv-> $repo_branch_csv, repo_tag_csv-> $repo_tag_csv, repo_remote-> $repo_remote, repo_url_prefix-> $repo_url_prefix";
 
    my $repo_dir = "$CFG{BUILD_SOURCES_BASE_DIR}/$repo_name";
 
