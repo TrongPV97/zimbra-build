@@ -1,7 +1,5 @@
 # zm-build
 
-# test
-
 ## Introduction
 
 This repository contains the build script and supporting files required to create a [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) build of the [Zimbra Collaboration Suite](https://www.zimbra.com/). 
